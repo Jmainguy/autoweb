@@ -66,7 +66,9 @@ func webhookHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintln(w, "Repo updated")
+	if _, err := fmt.Fprintln(w, "Repo updated"); err != nil {
+		log.Printf("Failed to write response: %v", err)
+	}
 }
 
 // servePublicDir starts serving the public directory as a static file server

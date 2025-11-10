@@ -2,7 +2,7 @@ module github.com/jmainguy/autoweb
 
 go 1.23.2
 
-require github.com/go-git/go-git/v5 v5.16.2
+require github.com/go-git/go-git/v5 v5.16.3
 
 require (
 	dario.cat/mergo v1.0.1 // indirect

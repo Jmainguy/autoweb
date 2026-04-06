@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.4](https://github.com/Jmainguy/autoweb/compare/v1.0.3...v1.0.4) (2026-04-06)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/go-git/go-git/v5 to v5.17.2 ([0c87631](https://github.com/Jmainguy/autoweb/commit/0c87631bbce386b5c708d959c079d2062cef8dce))
+* **deps:** update module github.com/go-git/go-git/v5 to v5.17.2 ([209ee49](https://github.com/Jmainguy/autoweb/commit/209ee49f57f6fa33b4d7acb609514011e0b2a393))
+
 ## [1.0.3](https://github.com/Jmainguy/autoweb/compare/v1.0.2...v1.0.3) (2026-03-30)
 
 
